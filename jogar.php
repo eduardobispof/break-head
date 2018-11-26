@@ -50,7 +50,7 @@
 								<table>
 								<?php
 									 if ($_SESSION['bloco']==$_SESSION['comp']) {
-									 	header(win.php);
+									 	header("location: win.php");
 									 }
  								   $_SESSION['cont'] = 0;
  								   for ($i=0; $i < $_SESSION['opa']; $i++) { ?>
